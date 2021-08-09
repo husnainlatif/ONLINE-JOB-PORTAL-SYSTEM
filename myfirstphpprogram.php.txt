@@ -1,0 +1,36 @@
+<html>
+
+<head><hi>first program</hi>
+
+</head>
+
+<body>
+
+  <?php>
+
+
+
+    define("DB_HOST","localhost");
+    define("DB_USERNAME","root");
+    define("DB_PASSWORD","1234");
+	define("DB_DATABASE","digiJobs");
+	
+	$db = new mysqli(DB_HOST,DB_USERNAME,DB_PASSWORD,DB_DATABASE);
+ if ($conn->connect_error) {
+//check connection 
+    die("connection failed : "$conn->connect_error);
+
+}
+ echo "connected sucessfully" ;
+
+?>
+
+  print "running my first program on xammp server."
+  
+  </body>
+</html>
+
+
+
+
+
